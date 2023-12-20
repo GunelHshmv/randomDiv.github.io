@@ -19,8 +19,8 @@ const createDiv=()=>{
     newDiv.style.backgroundColor=getRandomColor()
     newDiv.className="newDiv"
     newDiv.id=getRandomColor()
-    newDiv.style.left=`${getRandomNumber(window.innerWidth - 100)}px`
-    newDiv.style.top=`${getRandomNumber(window.innerHeight - 100)}px`
+    newDiv.style.left=`${getRandomNumber(window.innerWidth - 120)}px`
+    newDiv.style.top=`${getRandomNumber(window.innerHeight - 120)}px`
     newDiv.style.width=`${getRandomNumber(101-20)+20}px`
     newDiv.style.height=`${getRandomNumber(101-20)+20}px`
     container.appendChild(newDiv)
